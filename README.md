@@ -1,5 +1,5 @@
 
- hf-xet-max.sh — download a Hugging Face model at maximum speed (Xet protocol)
+ hf-xet-max — download a Hugging Face model at maximum speed (Xet protocol)
  
  Prompts for a download link, then downloads into the directory the script
  is executed in. Uses the official `hf` CLI (huggingface_hub >= 0.32, which
