@@ -24,7 +24,7 @@ The script recognizes Hugging Face Hub URLs in these forms:
 
 ## Usage
 
-Interactive: you'll be prompted for the URL
+# Interactive: you'll be prompted for the URL
 
 
 # Non-interactive: pass the URL as an argument
