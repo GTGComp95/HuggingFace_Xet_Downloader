@@ -1,9 +1,9 @@
-download_xet.ps1	PowerShell wrapper: venv setup, pip install, invokes the client
-download_xet_client.py	Download logic (Hub URL resolution, Xet snapshot_download with per-file fallback and retry)
+Files :
 
-Run on Windows:
-                powershell -ExecutionPolicy Bypass -File .\download_xet.ps1
+download_xet.ps1 — PowerShell wrapper (venv setup, pip install, client invocation)
+download_xet_client.py — Download logic (Hub URL resolution, Xet snapshot_download with per-file fallback and retry)
 
+powershell -ExecutionPolicy Bypass -File .\download_xet.ps1
 Optionally with a URL: powershell -ExecutionPolicy Bypass -File .\download_xet.ps1 "https://huggingface.co/..."
 
 Prerequisite: Python on PATH (for python -m venv).
